@@ -4,6 +4,10 @@ This a Flask Rest API exposing prices of AWS instance types per region. Given th
 ## Tools
 The API has been developed using [Flask](http://flask.pocoo.org/) framework due to the flexibility that it provides. This API supports arguments that are sent as JSON data as well as query params (see Usage). For this reason, [webargs](https://webargs.readthedocs.io/en/latest/) has been adopted to handle this.
 
+Supported Python version: 2.7
+
+OS: Ubuntu 14.04
+
 ## Deployment
 A Dockerfile is embedded to the project in order to setup and automate the deployment of the API. 
 ### *Prerequisites*
